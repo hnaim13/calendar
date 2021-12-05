@@ -1,0 +1,9 @@
+<p>
+  <i class="fa fa-arrow-left" (click)="go(-1)"></i>
+
+  <span>
+    {{ dateService.date | async | moment }}
+  </span>
+
+  <i class="fa fa-arrow-right" (click)="go(1)"></i>
+</p>
